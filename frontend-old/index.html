@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab GPU Monitor</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="page">
+    <div class="topbar">
+      <div>
+        <h1 class="page-title">实验室 GPU 监控面板</h1>
+        <div id="meta" class="muted">加载中...</div>
+      </div>
+      <div id="ws-status" class="muted">WebSocket: connecting</div>
+    </div>
+
+    <div id="summary" class="summary"></div>
+    <div id="toolbar" class="toolbar"></div>
+
+    <div class="section">
+      <h2>当前用户占卡排行</h2>
+      <div id="users"></div>
+    </div>
+
+    <div class="section">
+      <h2>节点视图</h2>
+      <div id="nodes"></div>
+    </div>
+  </div>
+
+  <script type="module" src="/static/js/app.js"></script>
+</body>
+</html>
