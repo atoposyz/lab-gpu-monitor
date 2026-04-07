@@ -1,715 +1,475 @@
-INFO:     Started server process [3586993]
+INFO:     Started server process [4072765]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     127.0.0.1:52892 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:52904 - "GET /?sort=name HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37084 - "GET /?sort=usage&gpu_view=all&filter=all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37100 - "GET /assets/index-C7-zwrGO.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37092 - "GET /assets/index-CfUZkE2-.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37106 - "GET /api/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37110 - "GET /api/announcements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37120 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:52918 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52930 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:35220 - "GET /?sort=name HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37130 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37144 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:35234 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35242 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:45308 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     connection closed
-INFO:     127.0.0.1:55460 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55448 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55448 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35016 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55448 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35016 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35028 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:51730 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51740 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51754 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:42480 - "GET /robots.txt HTTP/1.1" 200 OK
-INFO:     127.0.0.1:37082 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35348 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35348 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     connection closed
-INFO:     127.0.0.1:57148 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:46658 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:37546 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:37548 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:46674 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:49430 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49444 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49448 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49460 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49470 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:49486 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52020 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52032 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52032 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52046 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52052 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52068 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52084 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:46604 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35220 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35220 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35222 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35220 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35226 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:46680 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:51102 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51116 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:46686 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:33944 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37032 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:33954 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:33960 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:37040 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
+INFO:     127.0.0.1:37046 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:60538 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:60540 - "GET / HTTP/1.1" 200 OK
-INFO:     connection closed
-INFO:     127.0.0.1:60546 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:60562 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:60576 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:60588 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:60596 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:37058 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:47930 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47928 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47928 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:58754 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47928 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:58754 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:58758 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:37064 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:58564 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:60202 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:55158 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55172 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:55176 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:55182 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55196 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:55200 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54242 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
+INFO:     127.0.0.1:54256 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:47442 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47456 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:54258 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:46810 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:46812 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:54266 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:35330 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:45454 - "GET / HTTP/1.1" 200 OK
-INFO:     connection closed
-INFO:     127.0.0.1:45440 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:45440 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:45468 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:45468 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:45440 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:41332 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:47494 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:37132 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35732 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57030 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57014 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57030 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57030 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57040 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:57030 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     connection closed
-INFO:     127.0.0.1:41762 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52686 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52696 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52712 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52712 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52696 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52714 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:47498 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:48214 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:48224 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:48240 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:48256 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:48270 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:48282 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:47962 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47952 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47952 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47972 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47952 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47972 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47982 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:47514 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:56962 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56974 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:47520 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
+INFO:     127.0.0.1:52164 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:60820 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:60822 - "GET /?sort=name HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52172 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:60828 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:60830 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:52174 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:45834 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:45840 - "GET / HTTP/1.1" 200 OK
-INFO:     connection closed
-INFO:     127.0.0.1:45842 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:45856 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:45860 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:45876 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:45892 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     connection closed
-INFO:     127.0.0.1:51362 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51362 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51376 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51362 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51376 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:56526 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:50510 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52186 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:50510 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50514 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:52188 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:41124 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:42242 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:38392 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:42252 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:47128 - "GET /?gpu_view=all HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47130 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:42262 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:47128 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47146 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:42266 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:58682 - "GET /?gpu_view=all HTTP/1.1" 200 OK
-INFO:     127.0.0.1:58682 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:58696 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:37462 - "GET /?gpu_view=all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42270 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:37462 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:37466 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:45958 - "GET /?gpu_view=all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48310 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:45958 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:45962 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:41988 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:41988 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:41984 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:41988 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:41984 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:34842 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:48324 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
+INFO:     127.0.0.1:48340 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:47694 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47700 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:34158 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:41102 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:59164 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:33308 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:59168 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:41496 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:41504 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48658 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:41504 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:41506 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:35838 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:55984 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:35854 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:52358 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:38038 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:37082 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:38040 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:36062 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:36078 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:41014 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:44690 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44690 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44694 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44690 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44694 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44710 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:41028 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:59382 - "GET /robots.txt HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59392 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59408 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:46656 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:43142 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:43144 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:43160 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:43174 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:43174 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:43160 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:43190 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:60478 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:47496 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47510 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:60494 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:47828 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47840 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:52566 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:38200 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:48488 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44612 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44596 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44622 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44638 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44654 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:52582 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:41340 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:41340 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:41350 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:41340 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:41350 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:41364 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:50052 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52590 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:50052 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44876 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:52594 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:35662 - "GET /?gpu_view=all&filter=busy HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35662 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35684 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:35672 - "GET /?gpu_view=all&filter=busy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56090 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:35672 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:38394 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:41658 - "GET /?gpu_view=all&filter=busy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56094 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:41658 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:41664 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:41652 - "GET /?gpu_view=all&filter=busy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56100 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:41652 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50794 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:32810 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:52798 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:44234 - "GET /?gpu_view=all&filter=busy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32820 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:44234 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44242 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:32826 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:36016 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:58408 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:58402 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:58402 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:58422 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:58402 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:58422 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:58424 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:47368 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
+INFO:     127.0.0.1:47380 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:45130 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:47384 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:47238 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:47398 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:53728 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:45946 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:42874 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:45536 - "GET /?gpu_view=all&filter=busy HTTP/1.1" 200 OK
-INFO:     connection closed
-INFO:     127.0.0.1:45536 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:45542 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 304 Not Modified
-INFO:     127.0.0.1:44342 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57314 - "GET /robots.txt HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57918 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57928 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:42890 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:51388 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:36538 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:42896 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:54016 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54016 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54020 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54016 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54016 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54036 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:48690 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56464 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:48690 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:48696 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:60526 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56476 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:52202 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:52204 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50980 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:52204 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52220 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:49272 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56976 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:49272 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49284 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:42524 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56992 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:42524 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:42534 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:33338 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57006 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:33338 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:42666 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:47182 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59060 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:47182 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47194 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:43006 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39274 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:43006 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:43016 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:43982 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39282 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:43982 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:43994 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:47488 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46254 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:47488 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47500 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:50492 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46268 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:50492 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50500 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:37678 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50640 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:37678 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:37690 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:60630 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50656 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:60630 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:60638 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:46676 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40508 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:46676 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:46692 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:59036 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48428 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:59036 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59048 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:45544 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48442 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:45544 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:45548 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:45552 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49036 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:45552 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:46096 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:45006 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41858 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:45006 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44724 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:49158 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41872 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:49158 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49168 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:54162 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48196 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:54162 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54166 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:39228 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48198 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:39228 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:39236 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:35212 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50144 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:35212 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:35218 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:46448 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50160 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:46448 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:46454 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:46468 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60360 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:46468 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:46478 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:45484 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45196 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:45484 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:45492 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:45212 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:50152 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:50154 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37062 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:50154 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:50160 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
+INFO:     127.0.0.1:53320 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:47266 - "GET / HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47266 - "GET /assets/index-D5GFqx6x.js HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47282 - "GET /assets/index-BSn6c0__.css HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47266 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55538 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:47266 - "GET /favicon.ico HTTP/1.1" 200 OK
-INFO:     127.0.0.1:47266 - "GET / HTTP/1.1" 200 OK
-INFO:     connection closed
-INFO:     127.0.0.1:47266 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:55552 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:54166 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53332 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:54166 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54176 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:36230 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38470 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:36230 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:36234 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:48624 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38482 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:48624 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:48630 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:46130 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52010 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:46130 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:46132 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:59042 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52018 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:59042 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59046 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:46000 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51912 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:46000 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:46014 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:43068 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51926 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:43068 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:43082 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:49894 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51938 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:49894 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49902 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:51680 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36112 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:51680 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:51692 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:48000 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36128 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:48000 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:48014 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:41468 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36130 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:41468 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:41478 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:37242 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59538 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:37242 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:37252 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:37268 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59540 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:37268 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:37278 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:37068 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59554 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:37068 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:36176 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:44916 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59564 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:44916 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:44918 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:59130 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40100 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:59130 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:59136 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:37264 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40110 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:37264 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:37268 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:40406 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40116 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:40406 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:40420 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:36398 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56642 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:36398 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57388 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:36398 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56658 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:36398 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57394 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:43264 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56662 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:43264 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:43274 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:53116 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47116 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:53116 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:53120 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:54450 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47122 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:54450 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:54462 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:46552 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60812 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:46552 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:46568 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:49602 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60824 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:49602 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:49610 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:41584 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59236 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:41584 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:41592 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:57270 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49150 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:57270 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57276 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:33056 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49164 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:33056 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:33062 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:52260 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38698 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:52260 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:52276 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:39424 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38700 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:39424 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:39434 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:44646 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38956 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:44646 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:39208 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:37328 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38972 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:37328 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:37342 - "WebSocket /ws/overview" [accepted]
-INFO:     connection open
-INFO:     127.0.0.1:57408 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43396 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:49452 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:49456 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:50820 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:50834 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:54022 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:59850 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:59862 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:47194 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:47202 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:50096 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:52614 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:52622 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:35546 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:35554 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:34428 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:34436 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:48106 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:48610 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:48626 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:55714 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:48700 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:48704 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
+INFO:     connection closed
+INFO:     127.0.0.1:35840 - "WebSocket /ws/overview" 403
+INFO:     connection rejected (403 Forbidden)
 INFO:     connection closed
-INFO:     127.0.0.1:57408 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57410 - "WebSocket /ws/overview" [accepted]
+INFO:     127.0.0.1:35854 - "GET /?sort=usage&gpu_view=all&filter=all HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35860 - "GET /assets/index-C7-zwrGO.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35866 - "GET /assets/index-qUYnXti7.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35872 - "GET /api/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35882 - "GET /api/announcements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35886 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35894 - "WebSocket /api/ws/overview" [accepted]
 INFO:     connection open
-INFO:     127.0.0.1:57000 - "GET / HTTP/1.1" 200 OK
 INFO:     connection closed
-INFO:     127.0.0.1:57000 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:57014 - "WebSocket /ws/overview" [accepted]
+INFO:     127.0.0.1:35440 - "GET /favicon.ico HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35438 - "GET /api/announcements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33880 - "GET /api/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33882 - "GET /api/announcements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33884 - "WebSocket /api/ws/overview" [accepted]
 INFO:     connection open
 INFO:     connection closed
-INFO:     127.0.0.1:48534 - "WebSocket /ws/overview" [accepted]
+INFO:     127.0.0.1:33892 - "GET /api/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33906 - "GET /api/announcements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33914 - "WebSocket /api/ws/overview" [accepted]
 INFO:     connection open
-INFO:     127.0.0.1:40956 - "GET / HTTP/1.1" 200 OK
 INFO:     connection closed
-INFO:     127.0.0.1:40956 - "GET /api/overview HTTP/1.1" 200 OK
-INFO:     127.0.0.1:40968 - "WebSocket /ws/overview" [accepted]
+INFO:     127.0.0.1:33930 - "GET /api/announcements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59176 - "GET /api/overview HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59188 - "GET /api/announcements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59198 - "WebSocket /api/ws/overview" [accepted]
 INFO:     connection open
 INFO:     connection closed

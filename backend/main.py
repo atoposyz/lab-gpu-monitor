@@ -1,97 +1,69 @@
-import asyncio
-import json
 import os
 from contextlib import asynccontextmanager
-from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
-from fastapi.websockets import WebSocket, WebSocketDisconnect
 
+from backend.api import admin as admin_api
+from backend.api import announcements as announcements_api
+from backend.api import auth as auth_api
+from backend.api import applications as applications_api
+from backend.api import health as health_api
+from backend.api import overview as overview_api
+from backend.core.config import settings
+from backend.core.logging import configure_logging
+from backend.db.base import Base
+from backend.db.session import engine
 from backend.services.cache import get_cached_overview, start_background_refresh
 
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+FRONTEND_DIR = os.path.join(BASE_DIR, "frontend")
+DIST_DIR = os.path.join(FRONTEND_DIR, "dist")
+DIST_ASSETS_DIR = os.path.join(DIST_DIR, "assets")
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-FRONTEND_DIR = BASE_DIR / "frontend"
-DIST_DIR = FRONTEND_DIR / "dist"
-DIST_ASSETS_DIR = DIST_DIR / "assets"
-
-# 可选值：
-# APP_ENV=dev   -> 开发模式，不托管前端 dist
-# APP_ENV=prod  -> 生产模式，托管 frontend/dist
 APP_ENV = os.getenv("APP_ENV", "dev").lower()
 IS_PROD = APP_ENV == "prod"
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    configure_logging()
+    Base.metadata.create_all(bind=engine)
     start_background_refresh()
     yield
 
 
 app = FastAPI(title="Lab GPU Monitor", lifespan=lifespan)
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=settings.cors_allow_origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
-# ----------------------------
-# API
-# ----------------------------
-@app.get("/api/health")
-def health():
-    data = get_cached_overview()
-    return {
-        "status": "ok",
-        "cache_meta": data.get("_meta", {}),
-        "app_env": APP_ENV,
-    }
+app.include_router(health_api.router)
+app.include_router(overview_api.router)
+app.include_router(auth_api.router)
+app.include_router(applications_api.router)
+app.include_router(admin_api.router)
+app.include_router(announcements_api.router)
 
-
-@app.get("/api/overview")
-def overview():
-    return get_cached_overview()
-
-
-# ----------------------------
-# WebSocket
-# ----------------------------
-@app.websocket("/ws/overview")
-async def ws_overview(websocket: WebSocket):
-    await websocket.accept()
-    last_ts = None
-    try:
-        while True:
-            data = get_cached_overview()
-            cur_ts = data.get("_meta", {}).get("last_update_ts")
-            if cur_ts != last_ts:
-                await websocket.send_text(json.dumps(data, ensure_ascii=False))
-                last_ts = cur_ts
-            await asyncio.sleep(2)
-    except WebSocketDisconnect:
-        return
-
-
-# ----------------------------
-# 生产态静态托管
-# ----------------------------
 if IS_PROD:
-    if DIST_ASSETS_DIR.exists():
-        app.mount("/assets", StaticFiles(directory=str(DIST_ASSETS_DIR)), name="assets")
+    if os.path.exists(DIST_ASSETS_DIR):
+        app.mount("/assets", StaticFiles(directory=DIST_ASSETS_DIR), name="assets")
 
     @app.get("/{full_path:path}")
     def serve_spa(full_path: str):
-        """
-        生产态下：
-        - /                -> dist/index.html
-        - /assets/...      -> 已由上面的 StaticFiles 托管
-        - 其他前端路由       -> dist/index.html
-        """
-        index_file = DIST_DIR / "index.html"
-        if not index_file.exists():
+        index_file = os.path.join(DIST_DIR, "index.html")
+        if not os.path.exists(index_file):
             raise HTTPException(
                 status_code=500,
                 detail=(
-                    f"frontend build not found: {index_file}. "
-                    "Please run `npm run build` in the frontend directory first."
+                    f"frontend build not found: {index_file}. Please run `npm run build` in frontend first."
                 ),
             )
         return FileResponse(index_file)

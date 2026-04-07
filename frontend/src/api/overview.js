@@ -8,7 +8,7 @@ export async function fetchOverview() {
 
 export function createOverviewWebSocket({ onOpen, onMessage, onClose, onError }) {
   const scheme = window.location.protocol === "https:" ? "wss" : "ws";
-  const url = `${scheme}://${window.location.host}/ws/overview`;
+  const url = `${scheme}://${window.location.host}/api/ws/overview`;
   const ws = new WebSocket(url);
 
   ws.onopen = () => onOpen?.();

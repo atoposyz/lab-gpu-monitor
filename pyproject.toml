@@ -5,10 +5,22 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "fastapi>=0.135.1",
+    "fastapi>=0.90.0",
     "pydantic>=2.12.5",
     "uvicorn>=0.42.0",
     "websockets>=16.0",
+    "sqlalchemy>=2.0.0",
+    "PyMySQL>=1.0.0",
+    "PyJWT>=2.8.0",
+    "pydantic-settings>=2.0",
 ]
 [tool.uv]
 package = true
+
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["backend"]
+include = ["backend*"]
